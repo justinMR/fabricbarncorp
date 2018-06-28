@@ -1,0 +1,94 @@
+html {
+  height: 100%;
+}
+body {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.container {
+  width: 100%;
+}
+/*HEADER */
+
+header {
+  height: 400px;
+  width: 100%;
+  background-image: url("https://images.unsplash.com/photo-1516707471165-777029111409?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=77d4d031b6f15f50c68e65e830a83ac5&auto=format&fit=crop&w=1934&q=80");
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.intro_container {
+  text-align: center;
+  position: absolute;
+  color: white;
+  background-color: rgba(0,0,0,.8);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#quote {
+  text-align: center;
+  height: 300px;
+  position: relative;
+}
+
+.textcontent {
+  position: absolute;
+  top: 50%;
+  height: 100px;
+  margin-top: -50px;
+}
+
+#map {
+  text-align: center;
+  background: rgb(253,29,29);
+  background: linear-gradient(29deg, rgba(253,29,29,1) 51%, rgba(250,95,0,1) 100%);
+  position: relative;
+}
+
+#map iframe {
+  
+}
+
+footer {
+  text-align: center;
+  background-color: black;
+  width: 100%;
+  color: white;
+}
+
+footer ul {
+  width: 25%;
+  margin: 0 auto;
+}
+footer  li {
+  list-style-type: none;
+  padding: 10px;
+}
+
+footer li#instagram {
+  background: #f09433; 
+background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+}
+
+footer li#yelp {
+  background-color: #c41200;
+}
+
+footer li#facebook {
+  background-color: #3b5998;
+}
+footer a{
+  text-decoration: none;
+  color: white;
+}
+
+
