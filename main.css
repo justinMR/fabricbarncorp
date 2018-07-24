@@ -20,7 +20,7 @@ header {
   /* background-color: #FF9797; */
   /* position: absolute;
   top: 0px; */
-  width: 100%;
+  width: 1519px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -56,6 +56,7 @@ header {
   background: linear-gradient(270deg, rgba(255, 255, 255, 0.96) 7.64%, rgba(255, 255, 255, 0) 50%), #FF9797;
   position: relative;
   display: flex;
+  width: 1519px;
 
 }
 
@@ -97,6 +98,7 @@ color: #FFFFFF;
 
 #review {
   height: 512px;
+  width: 1519px;
   background: #FF9797;
   position: relative;
 }
@@ -156,6 +158,7 @@ hr {
 
 footer {
   height: 256px;
+  width: 1519px;
   background: #FF9797;
   display: flex;
   flex-direction: column;
