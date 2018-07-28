@@ -20,7 +20,7 @@ header {
   /* background-color: #FF9797; */
   /* position: absolute;
   top: 0px; */
-  width: 100%;
+  /* width: 1519px; */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -56,7 +56,8 @@ header {
   background: linear-gradient(270deg, rgba(255, 255, 255, 0.96) 7.64%, rgba(255, 255, 255, 0) 50%), #FF9797;
   position: relative;
   display: flex;
-
+  /* width: 1519px; */
+  width: 100%;
 }
 
 
@@ -97,12 +98,14 @@ color: #FFFFFF;
 
 #review {
   height: 512px;
+  /* width: 1519px; */
   background: #FF9797;
   position: relative;
+  width: 100%;
 }
 
 #review .leftpane {
-
+position: relative;
 
 }
 
@@ -149,13 +152,18 @@ hr {
 
 #map {
   height: 512px;
+  width: 100% !important;
 }
 
-
+iframe {
+  width: 100% !important;
+}
 
 
 footer {
   height: 256px;
+  /* width: 1519px; */
+  width: 100%;
   background: #FF9797;
   display: flex;
   flex-direction: column;
@@ -205,4 +213,104 @@ footer  a {
 
 .social-media-container div:hover, .social-media-container a:hover {
   transform: scale(1.1,1.1);
+}
+
+@media only screen and (max-width: 1434px) {
+  .rightpane {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 704px) {
+  html {
+  }
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: white;
+
+
+  }
+
+  body > * {
+    position: static !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+  }
+  header {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .herodiv {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 0;
+  }
+
+  .herodiv h1, .herodiv p  {
+    position: static !important;
+    width: 100%;
+    font-size:
+  }
+
+
+  #about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    width: auto;
+
+  }
+
+  #about h3, #about p {
+    position: static !important;
+    font-size: 16px;
+    width: 50%;
+    color: #FF9797;
+  }
+
+  #about hr {
+    border-color: #FF9797;
+  }
+
+  #review {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+  }
+
+
+  #review > h3,  #review p {
+    position: static !important;
+    font-size: 16px;
+    width: 50%;
+  }
+  iframe {
+    display:
+  }
+
+  .social-media-container {
+    width: 100%;
+    display: flex;
+  }
+  footer p {
+    font-size: 1em;
+    text-align: center;
+  }
+
 }
